@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "axios": "^1.4.0",
+    "luxon": "^3.5.0",
+    "pg": "^8.13.1",
+    "pg-hstore": "^2.3.4",
+    "prompt-sync": "^4.2.0",
+    "sequelize": "^6.37.5"
+  },
+  "devDependencies": {
+    "@types/luxon": "^3.4.2",
+    "@types/node": "^20.8.0",
+    "@types/prompt-sync": "^4.1.0",
+    "@types/sequelize": "^4.28.20",
+    "sequelize-cli": "^6.6.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "start": "ts-node desafio1.2/main.ts",
+    "build": "tsc"
+  }
+}
